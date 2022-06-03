@@ -6,8 +6,8 @@ fn main() {
     println!("Guess the number");
 
     let secret_number = rand::thread_rng().gen_range(1..101);
-
-    println!("The secret number is: {}", secret_number);
+    /* This line is used for testing the project to see if the rng is working properly
+    println!("The secret number is: {}", secret_number); */
 loop {
     println!("Please input your guess, it can be any number between 1 and 100.");
 
